@@ -1,0 +1,668 @@
+*{
+
+margin: 0;
+padding: 0;
+
+
+}
+
+body{
+
+background-image: url(road.jpg);    
+background-size: cover;
+background-repeat: no-repeat;
+justify-content: center;
+
+}
+
+.content{ 
+
+
+background-image: radial-gradient( ellipse 600px 300px at 600px,  rgba(0, 0, 0, 0.534), #000000e7 ) ;
+border-radius: 20px;
+height: 100vh;
+margin: 50px;
+display: flex;
+align-items: end;
+position: relative;
+overflow: hidden;
+
+
+}
+
+.lexus{
+
+width: 850px;
+height: 520px;
+margin-left: -80px;
+
+}
+
+.logo{
+
+    height: 75px;
+    width: 120px;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    
+}
+
+.top li{
+
+
+    list-style-type: none;
+    position: absolute;
+    top: 30px;
+    left: 280px;
+    display: flex;
+   
+}
+
+
+li a{
+
+
+padding: 15px;
+text-decoration: none;
+font-family: sans-serif;
+color: bisque;
+}
+
+
+a:hover{
+
+
+color:red;
+text-decoration:underline ;
+
+}
+
+.owners{
+
+position: absolute;
+top: 30px;
+right: 200px;
+width: 10px;
+display: flex;
+align-items: center;
+font-size: 15px;
+color: bisque;
+margin: 15px;
+text-decoration: none;
+outline: none;
+font-family: sans-serif;
+
+}
+
+p{
+ 
+    padding-left: 20px;
+
+} 
+
+.write{
+width: 400px;
+position: absolute;
+top: 25%;
+left: 52%;
+height:400px ;
+padding: 0;
+
+}
+
+
+.write a{
+
+text-decoration: none;
+font-size: 10px;
+color: white;
+font-family: sans-serif;
+position: absolute;
+top:  -25px;
+left: 0;
+text-transform: uppercase;
+margin-left: 19px;
+
+
+}
+
+
+ul li{
+     
+    
+    list-style-type:disc;
+    color: blue;
+    margin-left: 36px;
+    
+  
+}
+
+
+
+.write a:hover{
+
+color:red
+
+
+}
+
+.paragraf{
+
+    padding: 0;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-left: 19px;
+
+}
+
+i{
+
+
+    color: blue ;
+}
+
+
+.para0{
+
+
+    position: absolute;
+    top: 173px;
+    color: white;
+
+}
+
+
+.para00{
+
+
+    position: absolute;
+    top: 173px;
+    right: 300px;
+    color: white;
+
+}
+
+.para000{
+
+
+    position: absolute;
+    top: 173px;
+    right: 225px;
+    color: white;
+
+}
+
+
+.para0000{
+
+
+    position: absolute;
+    top: 173px;
+    right: 150px;
+    color: white;
+
+}
+
+.para{
+
+
+    
+    position: absolute;
+    top: 177px;
+    color: white ;
+    
+   
+}
+
+.paraa{
+
+
+    
+    position: absolute;
+    top: 177px;
+    right: 300px;
+    color: white ;
+
+    
+   
+}
+
+.paraaa{
+
+
+    
+    position: absolute;
+    top: 177px;
+    right: 225px;
+    color: white ;
+
+    
+   
+}
+
+.paraaaa{
+
+
+    position: absolute;
+    top: 177px;
+    right: 150px;
+    color: white ;
+
+
+}
+
+
+.para1{
+
+   
+    position: absolute;
+    top: 190px;
+    color: white;
+
+}
+
+.para11{
+
+   
+    position: absolute;
+    top: 190px;
+    right: 300px;
+    color: white;
+
+}
+
+
+.para111{
+
+   
+    position: absolute;
+    top: 190px;
+    right: 225px;
+    color: white;
+
+}
+
+
+.para1111{
+
+    position: absolute;
+    top: 190px;
+    right: 150px;
+    color: white;
+
+
+
+}
+
+
+ .horse{
+    position: absolute;
+    top: 185px;
+    right: 290px;
+    color: white ;
+    transform: scale(0.5);
+
+}
+
+.num{
+
+
+    position: absolute;
+    top: 175px;
+    right: 325px;
+    color: white ;
+
+    
+
+}
+
+
+
+
+
+
+.horse{
+    position: absolute;
+    top: 190px;
+    right: 290px;
+    color: white ;
+    transform: scale(0.5);
+
+}
+
+.horsee{
+    position: absolute;
+    top: 190px;
+    right: 225px;
+    color: white ;
+    transform: scale(0.5);
+
+}
+
+
+.horseee{
+
+    position: absolute;
+    top: 190px;
+    right: 140px;
+    color: white ;
+    transform: scale(0.5);
+
+}
+
+.num{
+
+
+    position: absolute;
+    top: 175px;
+    right: 325px;
+    color: white ;
+
+    
+
+}
+
+.numm{
+
+
+    position: absolute;
+    top: 175px;
+    right: 250px;
+    color: white ;
+
+    
+
+}
+
+
+.nummm{
+
+    
+    position: absolute;
+    top: 175px;
+    right: 175px;
+    color: white ;
+
+
+
+
+}
+
+
+.exp{
+
+
+background-color:  rgba(45, 100, 218, 0.904);
+height: 40px;
+width: 130px;
+cursor: pointer;
+border: none;
+padding: 5px;
+margin: 10px;
+margin-left: 18px;
+color: aliceblue;
+font-size: 18px;
+border-radius: 5px;
+font-weight: 700;
+font-family: sans-serif;
+
+
+}
+
+.exp:hover{
+
+color:black;
+transition: 1s;
+
+
+
+}
+
+
+.buil{
+
+   
+    border: 3px solid rgba(45, 100, 218, 0.904);
+    width: 130px;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    
+   
+    
+ }
+
+ .buil h3{
+
+
+
+    position: absolute;
+    left: 172px;
+    align-items: center;
+    padding-left: 40px;
+    display: flex;
+    color: aliceblue;
+    color: aliceblue;
+    font-size: 18px;
+    width: 100px;
+    height: 40px;
+    top: 230px;
+    font-weight: 700;
+    font-family: sans-serif;
+ }
+
+ .buil h3:hover{
+
+    color:black;
+    transition: 1s;
+    cursor: pointer;
+    
+    
+    
+    }
+    
+
+
+.section{
+
+
+display: flex;
+
+
+}
+
+.racing{
+
+
+    display: none;
+}
+
+.rc-f{
+
+width: 330px;
+height: 125px;
+position: absolute;
+bottom: -60px;
+display: flex;
+align-items: center;
+overflow: hidden;
+
+}
+
+.rc-fred{
+
+    width: 290px;
+    height: 125px;
+    position: absolute;
+    right: -228px;
+    bottom: -60px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    
+    
+    }
+
+.racing1{
+
+width: 100%;
+height: 100%;
+border-radius: 7px;
+
+}
+
+
+
+.racing2{
+
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+    
+
+
+.rc-f a{
+
+position: absolute;
+top: 80px;
+left: -15px;
+font-family: sans-serif;
+font-weight: 700;
+font-size: larger;
+color: white;
+z-index: +1 ;
+}
+
+
+.rc-fred a{
+
+position: absolute;
+top: 80px;
+left: -15px;
+font-family: sans-serif;
+font-weight: 700;
+font-size: larger;
+color: white;
+z-index: +1 ;
+display: none;
+}
+
+
+
+
+
+.black{
+width: 30%;
+height: 80%;
+background-image: linear-gradient( to right, rgba(0, 0, 0, 0.877) 80%,rgba(32, 32, 32, 0.575));
+position: absolute;
+bottom: 0 ;
+left: -55px;
+transform: skew(50deg);
+
+}
+
+
+
+.sidebar{
+
+
+    color: black;
+    position: absolute;
+    top: 250px;
+    left: -5px;
+
+}
+
+.sidebar .findcar{
+
+background-color: color-mix(   black );
+width: 60px;
+height: 60px;
+display: flex;
+align-items: end;
+padding: 10px;
+border-radius: 10px;
+
+
+}
+
+.sidebar .compare{
+
+    background-color: rgba(68, 68, 68, 0.548);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: end;
+    padding: 10px;
+    border-radius: 10px;
+    
+    }
+    
+
+    .sidebar .yourlexus{
+
+    background-color: rgba(68, 68, 68, 0.548);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: end;
+    padding: 10px;
+    border-radius: 10px;
+        
+        }
+
+  
+
+
+.sidebar a{
+
+
+    text-decoration: none;
+    font-size: 10px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-family: sans-serif;
+
+}
+
+.sidebar .findcar{
+
+    
+    width: 70px;
+    position: relative;
+    transform: scale(1.1);
+    transition: 0.5s;
+    left: -5px;
+    background: color-mix(in oklab, rgba(192, 192, 192, 0.955) 80%, black 20% );
+    z-index: +2;
+    
+}
+
+.sidebar .yourlexus:hover {
+
+    position: relative;
+    transition: 0.5s;
+    background-color:rgba(192, 192, 192, 0.644);
+} 
+
+
+
+.compare:hover{
+    position: relative;
+    transition: 0.5s;
+    background-color:rgba(192, 192, 192, 0.644);
+    overflow: hidden;
+    z-index: +1;
+}   
